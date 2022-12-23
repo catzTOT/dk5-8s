@@ -56,18 +56,29 @@ local tbl =
 			{
 				actions = 
 				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
 				},
 				conditions = 
 				{
 				},
-				execute = "p7s st\n---雪仇---\n死刑\n---暗黑布道---\n第二个死刑\n双奶分摊",
-				executeType = 2,
 				mechanicTime = 13,
-				name = "read me",
+				name = "暗黑布道",
 				timelineIndex = 1,
-				uuid = "233eff02-d561-7b8e-9bf9-0822e12fb8e2",
+				timerOffset = -5,
+				uuid = "86494a9b-8ef9-7a02-8c3a-2cd6f8ad3a47",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	
@@ -232,39 +243,6 @@ local tbl =
 			},
 		},
 	}, 
-	[9] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 79.8,
-				name = "暗黑布道",
-				timelineIndex = 9,
-				timerOffset = -5,
-				uuid = "bbc358e4-3005-b95c-8b55-81b574a5a72b",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-	},
 	[12] = 
 	{
 		
@@ -295,36 +273,6 @@ local tbl =
 				uuid = "5a7080d7-97dd-3171-9102-d189cac8b7b1",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 91.7,
-				name = "暗黑布道",
-				timelineIndex = 12,
-				timerOffset = -5,
-				uuid = "e10e5672-f42d-fa81-ba47-7b76aa794b0a",
-				version = 2,
-			},
-			inheritedIndex = 2,
 		},
 		
 		{
@@ -441,6 +389,39 @@ local tbl =
 				uuid = "42958a87-fb28-46bd-b85b-657c9296acd5",
 				version = 2,
 			},
+		},
+	},
+	[13] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 102.5,
+				name = "暗黑布道",
+				timelineIndex = 13,
+				timerOffset = -5,
+				uuid = "8b1783db-eeb1-6cf8-8e1f-6226959d4a55",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[22] = 
@@ -1229,6 +1210,39 @@ local tbl =
 			inheritedIndex = 2,
 		},
 	},
+	[52] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 363.3,
+				name = "暗黑布道",
+				timelineIndex = 52,
+				timerOffset = -5,
+				uuid = "ef262922-2bb8-0500-a1bd-a89e32acd17d",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
 	[57] = 
 	{
 		
@@ -1262,40 +1276,7 @@ local tbl =
 			inheritedIndex = 2,
 		},
 	},
-	[60] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 422.5,
-				name = "暗黑布道",
-				timelineIndex = 60,
-				timerOffset = -5,
-				uuid = "2d1ac0d9-a4c0-638f-8d8f-e538941b3ffd",
-				version = 2,
-			},
-			inheritedIndex = 1,
-		},
-	},
-	[74] = 
+	[64] = 
 	{
 		
 		{
@@ -1318,13 +1299,46 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 452.5,
+				mechanicTime = 429.7,
 				name = "雪仇",
-				timelineIndex = 74,
+				timelineIndex = 64,
 				timerOffset = -2,
-				uuid = "c3c805ec-7b6a-e247-ae73-0b96233a5645",
+				uuid = "84cd15af-e1a6-8bc3-899f-c9bd60a8d8ef",
 				version = 2,
 			},
+		},
+	},
+	[75] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 460.8,
+				name = "暗黑布道",
+				timelineIndex = 75,
+				timerOffset = -5,
+				uuid = "513d0f8c-e96a-eb72-90bd-0a200ce74525",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	[81] = 
@@ -1413,6 +1427,38 @@ local tbl =
 			},
 		},
 	},
+	[103] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Reprisal",
+							uuid = "d1f0bd98-4e3b-3e68-9d76-44e324bea010",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 643.1,
+				name = "雪仇",
+				timelineIndex = 103,
+				timerOffset = -2,
+				uuid = "97cd491e-8821-441c-aa64-c91126884f69",
+				version = 2,
+			},
+		},
+	},
 	[104] = 
 	{
 		
@@ -1443,6 +1489,36 @@ local tbl =
 				uuid = "94e2a42d-3d27-0f6b-a0a9-e2c6706a30e1",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "ff59738c-455b-1f60-9518-30723ee40f91",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 656.3,
+				name = "暗黑布道",
+				timelineIndex = 104,
+				timerOffset = -5,
+				uuid = "8c51bbbf-5d2d-dc73-b243-46584e026ab1",
+				version = 2,
+			},
+			inheritedIndex = 1,
 		},
 	},
 	inheritedProfiles = 
