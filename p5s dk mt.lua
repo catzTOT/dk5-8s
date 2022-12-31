@@ -84,7 +84,7 @@ local tbl =
 			},
 		},
 	},
-	[6] = 
+	[8] = 
 	{
 		
 		{
@@ -107,17 +107,15 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 42.7,
+				mechanicTime = 56.3,
 				name = "铁壁",
-				timelineIndex = 6,
-				timerOffset = -2,
-				uuid = "9abc53dc-bf00-0ead-974a-b814a633643d",
+				timelineIndex = 8,
+				timerOffset = -10,
+				uuid = "797b1424-525c-6e6c-baa1-a03f22d1c0fa",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
-	},
-	[8] = 
-	{
 		
 		{
 			data = 
@@ -173,35 +171,6 @@ local tbl =
 				timelineIndex = 8,
 				timerOffset = -3,
 				uuid = "438da4f9-c162-bc1c-ba90-c8e51c173d30",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 56.3,
-				name = "至黑之夜",
-				timelineIndex = 8,
-				timerOffset = -1.5,
-				uuid = "05257859-6f4a-226e-afe6-50c4de7e29cb",
 				version = 2,
 			},
 		},
@@ -276,7 +245,36 @@ local tbl =
 				uuid = "aecd24b5-4028-8a67-8025-9dddfcbbecdb",
 				version = 2,
 			},
-			inheritedIndex = 4,
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 56.3,
+				name = "至黑之夜",
+				timelineIndex = 8,
+				timerOffset = -1.5,
+				uuid = "05257859-6f4a-226e-afe6-50c4de7e29cb",
+				version = 2,
+			},
 		},
 	},
 	[11] = 
@@ -507,64 +505,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "93edb9e6-a9c9-3a39-8cab-df6f7b30d7eb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 193.1,
-				name = "献奉",
-				timelineIndex = 33,
-				timerOffset = -3,
-				uuid = "619f0e1b-cee6-f2ce-9cdb-1f649c865dfa",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 193.1,
-				name = "至黑之夜",
-				timelineIndex = 33,
-				timerOffset = -1.5,
-				uuid = "f74b6801-d07e-9b48-97ce-bc3d9ce9dcb6",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -626,6 +566,94 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "93edb9e6-a9c9-3a39-8cab-df6f7b30d7eb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 193.1,
+				name = "献奉",
+				timelineIndex = 33,
+				timerOffset = -3,
+				uuid = "619f0e1b-cee6-f2ce-9cdb-1f649c865dfa",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 193.1,
+				name = "至黑之夜",
+				timelineIndex = 33,
+				timerOffset = -1.5,
+				uuid = "f74b6801-d07e-9b48-97ce-bc3d9ce9dcb6",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "62c916f6-d43d-4d4d-808d-b4d9ad7018a5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 193.1,
+				name = "铁壁",
+				timelineIndex = 33,
+				timerOffset = -10,
+				uuid = "4e3ad27d-29ae-9e4e-bcca-92990ce265ae",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[35] = 
@@ -951,35 +979,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 417,
-				name = "至黑之夜",
-				timelineIndex = 80,
-				timerOffset = -1.5,
-				uuid = "a27cbc13-efe7-606d-a0f9-4b5c0453595b",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -1041,6 +1040,65 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 417,
+				name = "至黑之夜",
+				timelineIndex = 80,
+				timerOffset = -1.5,
+				uuid = "a27cbc13-efe7-606d-a0f9-4b5c0453595b",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "62c916f6-d43d-4d4d-808d-b4d9ad7018a5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 417,
+				name = "铁壁",
+				timelineIndex = 80,
+				timerOffset = -10,
+				uuid = "c4420b82-bff7-c8d5-bc97-1ae12622c943",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[82] = 
@@ -1178,35 +1236,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "93edb9e6-a9c9-3a39-8cab-df6f7b30d7eb",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 489.8,
-				name = "献奉",
-				timelineIndex = 94,
-				timerOffset = -3,
-				uuid = "ef1478ed-5eb1-9ba9-a104-0b11acd66575",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
 							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
 							variableTogglesType = 3,
@@ -1225,6 +1254,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "93edb9e6-a9c9-3a39-8cab-df6f7b30d7eb",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 489.8,
+				name = "献奉",
+				timelineIndex = 94,
+				timerOffset = -3,
+				uuid = "ef1478ed-5eb1-9ba9-a104-0b11acd66575",
+				version = 2,
+			},
 		},
 	},
 	[96] = 
@@ -1330,35 +1388,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
-							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 544.1,
-				name = "至黑之夜",
-				timelineIndex = 101,
-				timerOffset = -1.5,
-				uuid = "38fd85e3-af2b-1fcb-b7c0-da2c5c8807dc",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							actionID = 18,
 							conditions = 
 							{
@@ -1421,9 +1450,69 @@ local tbl =
 			},
 			inheritedIndex = 4,
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							uuid = "cd8b7e27-1092-eec1-a2ae-52fc6d3cbcce",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 544.1,
+				name = "至黑之夜",
+				timelineIndex = 101,
+				timerOffset = -1.5,
+				uuid = "38fd85e3-af2b-1fcb-b7c0-da2c5c8807dc",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "62c916f6-d43d-4d4d-808d-b4d9ad7018a5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 544.1,
+				name = "铁壁",
+				timelineIndex = 101,
+				timerOffset = -10,
+				uuid = "3ca049b2-40a7-40df-9ff8-1ff70e457619",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage2\\p5s",
 	},
 	mapID = 1082,
 	version = 4,

@@ -297,7 +297,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -307,42 +307,12 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 85.3,
 				name = "至黑之夜",
 				timelineIndex = 20,
 				timerOffset = 0.5,
 				uuid = "b3a673e8-42d2-58e5-bad2-54d07cde1e5f",
-				version = 2,
-			},
-		},
-	},
-	[23] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "51613110-1398-588e-b41a-0e66b875b685",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 104.4,
-				name = "30%",
-				timelineIndex = 23,
-				uuid = "df83866d-4b0a-680b-9bef-1ce8b64cddba",
 				version = 2,
 			},
 		},
@@ -477,6 +447,11 @@ local tbl =
 									"94bbd62c-1fa9-d679-903e-e7bb8761d05f",
 									true,
 								},
+								
+								{
+									"093f8d63-cb52-72b3-a658-2cdf16657d34",
+									true,
+								},
 							},
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Potion",
@@ -554,6 +529,150 @@ local tbl =
 				uuid = "6f0f7acf-9850-ccce-8aa2-53460f3b4c9b",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+									false,
+								},
+								
+								{
+									"bdf47457-c99f-3824-a699-ee18dabf49cc",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30855,
+							uuid = "8ff25973-105c-1677-a04a-4cd27b00240c",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 128.5,
+				name = "退避",
+				timeRange = true,
+				timelineIndex = 27,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "071239c5-3f8f-80f7-a121-7094e5d8f349",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 128.5,
+				name = "铁壁",
+				timelineIndex = 27,
+				timerOffset = -8,
+				uuid = "8d1c98be-22ba-5efb-8989-cac1b535ea1c",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 128.5,
+				name = "弃明投暗",
+				timelineIndex = 27,
+				timerOffset = -5,
+				uuid = "822cc9ae-3ce6-00d1-a5f6-7e91cc95c294",
+				version = 2,
+			},
+			inheritedIndex = 7,
 		},
 		
 		{
@@ -942,150 +1061,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-									false,
-								},
-								
-								{
-									"bdf47457-c99f-3824-a699-ee18dabf49cc",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "8ff25973-105c-1677-a04a-4cd27b00240c",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 128.5,
-				name = "退避",
-				timeRange = true,
-				timelineIndex = 27,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "071239c5-3f8f-80f7-a121-7094e5d8f349",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 128.5,
-				name = "铁壁",
-				timelineIndex = 27,
-				timerOffset = -8,
-				uuid = "8d1c98be-22ba-5efb-8989-cac1b535ea1c",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 128.5,
-				name = "弃明投暗",
-				timelineIndex = 27,
-				timerOffset = -5,
-				uuid = "822cc9ae-3ce6-00d1-a5f6-7e91cc95c294",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
 							uuid = "3af8b49e-585e-c9fc-b8e5-3e1eff0ee01f",
 							variableTogglesType = 3,
@@ -1130,6 +1105,35 @@ local tbl =
 				timelineIndex = 27,
 				timerOffset = -1,
 				uuid = "828d01e9-b441-8cc4-a812-08aba264c3c8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "51613110-1398-588e-b41a-0e66b875b685",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 128.5,
+				name = "30%",
+				timelineIndex = 27,
+				timerOffset = -5,
+				uuid = "e7e6f140-c8fb-3a19-aef4-3b02cbb12947",
 				version = 2,
 			},
 		},
@@ -1179,7 +1183,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -1211,7 +1215,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -1221,6 +1225,7 @@ local tbl =
 				conditions = 
 				{
 				},
+				enabled = false,
 				mechanicTime = 195.3,
 				name = "至黑之夜",
 				timelineIndex = 37,
@@ -1360,6 +1365,11 @@ local tbl =
 									"94bbd62c-1fa9-d679-903e-e7bb8761d05f",
 									true,
 								},
+								
+								{
+									"093f8d63-cb52-72b3-a658-2cdf16657d34",
+									true,
+								},
 							},
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Potion",
@@ -1437,6 +1447,90 @@ local tbl =
 				uuid = "edc624ae-6f5a-06e7-b987-8b5965458f20",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+									false,
+								},
+								
+								{
+									"bdf47457-c99f-3824-a699-ee18dabf49cc",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30855,
+							uuid = "bf5f215b-7e6e-a94c-98f2-79b8b92f4c5a",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 239.3,
+				name = "退避",
+				timeRange = true,
+				timelineIndex = 46,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "14a19320-da86-2727-983b-4155c1969264",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -1825,78 +1919,24 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-									false,
-								},
-								
-								{
-									"bdf47457-c99f-3824-a699-ee18dabf49cc",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
+							uuid = "3af8b49e-585e-c9fc-b8e5-3e1eff0ee01f",
+							variableTogglesType = 3,
 							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "bf5f215b-7e6e-a94c-98f2-79b8b92f4c5a",
-							version = 2,
-						},
-					},
 				},
-				eventType = 3,
 				mechanicTime = 239.3,
-				name = "退避",
-				timeRange = true,
+				name = "献奉",
 				timelineIndex = 46,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "14a19320-da86-2727-983b-4155c1969264",
+				timerOffset = -6,
+				uuid = "2d6ee8c9-5f8e-4ae9-ad40-b5082b47c962",
 				version = 2,
 			},
-			inheritedIndex = 5,
+			inheritedIndex = 8,
 		},
 		
 		{
@@ -1955,36 +1995,6 @@ local tbl =
 				uuid = "12bb3987-1cc4-cbb7-81aa-23269fa61e71",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
-							uuid = "3af8b49e-585e-c9fc-b8e5-3e1eff0ee01f",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 239.3,
-				name = "献奉",
-				timelineIndex = 46,
-				timerOffset = -6,
-				uuid = "2d6ee8c9-5f8e-4ae9-ad40-b5082b47c962",
-				version = 2,
-			},
-			inheritedIndex = 8,
 		},
 		
 		{
@@ -2090,7 +2100,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -2122,7 +2132,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -2154,7 +2164,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -2301,6 +2311,11 @@ local tbl =
 									"94bbd62c-1fa9-d679-903e-e7bb8761d05f",
 									true,
 								},
+								
+								{
+									"093f8d63-cb52-72b3-a658-2cdf16657d34",
+									true,
+								},
 							},
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Potion",
@@ -2378,6 +2393,185 @@ local tbl =
 				uuid = "aa041233-8ce7-fe0d-b0ac-767f2e8d9699",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+									false,
+								},
+								
+								{
+									"bdf47457-c99f-3824-a699-ee18dabf49cc",
+									true,
+								},
+								
+								{
+									"57195b1a-9a47-c144-9f4e-7e0c13a50adb",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30855,
+							uuid = "57195b1a-9a47-c144-9f4e-7e0c13a50adb",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 372.2,
+				name = "退避",
+				timeRange = true,
+				timelineIndex = 70,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "ac5165a3-4373-c845-a1df-d9970743bb41",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 372.2,
+				name = "铁壁",
+				timelineIndex = 70,
+				timerOffset = -15,
+				uuid = "95047656-4b9a-5080-8318-60eec148ca48",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 372.2,
+				name = "30%",
+				timelineIndex = 70,
+				timerOffset = -11,
+				uuid = "146616be-545d-a98c-99bb-27dfb37d9bbd",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 372.2,
+				name = "弃明投暗",
+				timelineIndex = 70,
+				timerOffset = -6,
+				uuid = "39f28a02-de7e-1782-b66e-c6121b39dd03",
+				version = 2,
+			},
+			inheritedIndex = 8,
 		},
 		
 		{
@@ -2766,185 +2960,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-									false,
-								},
-								
-								{
-									"bdf47457-c99f-3824-a699-ee18dabf49cc",
-									true,
-								},
-								
-								{
-									"57195b1a-9a47-c144-9f4e-7e0c13a50adb",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "57195b1a-9a47-c144-9f4e-7e0c13a50adb",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 372.2,
-				name = "退避",
-				timeRange = true,
-				timelineIndex = 70,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "ac5165a3-4373-c845-a1df-d9970743bb41",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 372.2,
-				name = "铁壁",
-				timelineIndex = 70,
-				timerOffset = -15,
-				uuid = "95047656-4b9a-5080-8318-60eec148ca48",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 372.2,
-				name = "30%",
-				timelineIndex = 70,
-				timerOffset = -11,
-				uuid = "146616be-545d-a98c-99bb-27dfb37d9bbd",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 372.2,
-				name = "弃明投暗",
-				timelineIndex = 70,
-				timerOffset = -6,
-				uuid = "39f28a02-de7e-1782-b66e-c6121b39dd03",
-				version = 2,
-			},
-			inheritedIndex = 8,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_OblationSelf",
 							uuid = "3af8b49e-585e-c9fc-b8e5-3e1eff0ee01f",
 							variableTogglesType = 3,
@@ -3038,7 +3053,7 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
+							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightMT",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
 							version = 2,
@@ -3219,6 +3234,11 @@ local tbl =
 									"94bbd62c-1fa9-d679-903e-e7bb8761d05f",
 									true,
 								},
+								
+								{
+									"093f8d63-cb52-72b3-a658-2cdf16657d34",
+									true,
+								},
 							},
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Potion",
@@ -3296,6 +3316,185 @@ local tbl =
 				uuid = "83be08f6-3a7c-0ac6-aaae-f7ef0c8b2de1",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+									false,
+								},
+								
+								{
+									"bdf47457-c99f-3824-a699-ee18dabf49cc",
+									true,
+								},
+								
+								{
+									"36e86297-1f10-675f-b1e1-08d094d3014d",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30855,
+							uuid = "36e86297-1f10-675f-b1e1-08d094d3014d",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 485,
+				name = "退避",
+				timeRange = true,
+				timelineIndex = 91,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "f4e0a74d-1b46-e417-b03c-576f025f0ca1",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 485,
+				name = "铁壁",
+				timelineIndex = 91,
+				timerOffset = -7,
+				uuid = "58523185-e79f-f9c5-bcff-b7ae881d6a44",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 485,
+				name = "弃明投暗",
+				timelineIndex = 91,
+				timerOffset = -6,
+				uuid = "3b5633a8-b6c1-e30a-9de6-09d66ceb4a75",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 485,
+				name = "30%",
+				timelineIndex = 91,
+				timerOffset = -5,
+				uuid = "d00ba249-5b50-99b8-9429-2a41b77a0faf",
+				version = 2,
+			},
+			inheritedIndex = 8,
 		},
 		
 		{
@@ -3684,185 +3883,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-									false,
-								},
-								
-								{
-									"bdf47457-c99f-3824-a699-ee18dabf49cc",
-									true,
-								},
-								
-								{
-									"36e86297-1f10-675f-b1e1-08d094d3014d",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "36e86297-1f10-675f-b1e1-08d094d3014d",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 485,
-				name = "退避",
-				timeRange = true,
-				timelineIndex = 91,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "f4e0a74d-1b46-e417-b03c-576f025f0ca1",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 485,
-				name = "铁壁",
-				timelineIndex = 91,
-				timerOffset = -7,
-				uuid = "58523185-e79f-f9c5-bcff-b7ae881d6a44",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 485,
-				name = "弃明投暗",
-				timelineIndex = 91,
-				timerOffset = -6,
-				uuid = "3b5633a8-b6c1-e30a-9de6-09d66ceb4a75",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 485,
-				name = "30%",
-				timelineIndex = 91,
-				timerOffset = -5,
-				uuid = "d00ba249-5b50-99b8-9429-2a41b77a0faf",
-				version = 2,
-			},
-			inheritedIndex = 8,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
@@ -4012,6 +4032,11 @@ local tbl =
 									"94bbd62c-1fa9-d679-903e-e7bb8761d05f",
 									true,
 								},
+								
+								{
+									"093f8d63-cb52-72b3-a658-2cdf16657d34",
+									true,
+								},
 							},
 							endIfUsed = true,
 							gVar = "ACR_RikuDRK2_Potion",
@@ -4089,6 +4114,180 @@ local tbl =
 				uuid = "c2773327-ad01-cae9-936f-8e5f5a033493",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							actionID = 18,
+							conditions = 
+							{
+								
+								{
+									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+									false,
+								},
+								
+								{
+									"bdf47457-c99f-3824-a699-ee18dabf49cc",
+									true,
+								},
+							},
+							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
+							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Self",
+							conditionType = 9,
+							partyTargetType = "Event Entity",
+							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgOptionType = 3,
+							eventArgType = 2,
+							spellIDList = 
+							{
+								7533,
+							},
+							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
+							version = 2,
+						},
+					},
+					
+					{
+						data = 
+						{
+							category = "Event",
+							eventArgType = 2,
+							eventSpellID = 30855,
+							uuid = "f8652bc2-d4a0-d9e3-a309-8b7e805ef96b",
+							version = 2,
+						},
+					},
+				},
+				eventType = 3,
+				mechanicTime = 608.9,
+				name = "退避",
+				timeRange = true,
+				timelineIndex = 117,
+				timerEndOffset = 10,
+				timerStartOffset = -10,
+				uuid = "34e40c2e-8975-d726-a71d-35dfb22dd6f1",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
+							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 608.9,
+				name = "铁壁",
+				timelineIndex = 117,
+				timerOffset = -7,
+				uuid = "940edae5-caca-baa4-94bc-fa35ca14825f",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
+							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 608.9,
+				name = "弃明投暗",
+				timelineIndex = 117,
+				timerOffset = -6,
+				uuid = "e8bac700-cc66-d8cf-8f2b-5a5220da3e96",
+				version = 2,
+			},
+			inheritedIndex = 7,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 608.9,
+				name = "30%",
+				timelineIndex = 117,
+				timerOffset = -5,
+				uuid = "ce2cd905-c984-9342-8e1f-c35bd3fd171e",
+				version = 2,
+			},
+			inheritedIndex = 8,
 		},
 		
 		{
@@ -4477,180 +4676,6 @@ local tbl =
 						data = 
 						{
 							aType = "Variable",
-							actionID = 18,
-							conditions = 
-							{
-								
-								{
-									"c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-									false,
-								},
-								
-								{
-									"bdf47457-c99f-3824-a699-ee18dabf49cc",
-									true,
-								},
-							},
-							gVar = "ACR_RikuDRK2_Hotbar_ShirkOT",
-							uuid = "a692c0d5-5fed-3ae1-869f-ec5f0e1c2389",
-							variableTogglesType = 2,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Self",
-							conditionType = 9,
-							partyTargetType = "Event Entity",
-							uuid = "c428a179-5b92-bd83-86d0-6d3f01de0d7e",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgOptionType = 3,
-							eventArgType = 2,
-							spellIDList = 
-							{
-								7533,
-							},
-							uuid = "bdf47457-c99f-3824-a699-ee18dabf49cc",
-							version = 2,
-						},
-					},
-					
-					{
-						data = 
-						{
-							category = "Event",
-							eventArgType = 2,
-							eventSpellID = 30855,
-							uuid = "f8652bc2-d4a0-d9e3-a309-8b7e805ef96b",
-							version = 2,
-						},
-					},
-				},
-				eventType = 3,
-				mechanicTime = 608.9,
-				name = "退避",
-				timeRange = true,
-				timelineIndex = 117,
-				timerEndOffset = 10,
-				timerStartOffset = -10,
-				uuid = "34e40c2e-8975-d726-a71d-35dfb22dd6f1",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_Rampart",
-							uuid = "d6e89d8e-085b-d760-a1d9-013ee79caeaa",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 608.9,
-				name = "铁壁",
-				timelineIndex = 117,
-				timerOffset = -7,
-				uuid = "940edae5-caca-baa4-94bc-fa35ca14825f",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMind",
-							uuid = "2ac201e3-bc97-4696-8aec-4e7cc7ff6082",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 608.9,
-				name = "弃明投暗",
-				timelineIndex = 117,
-				timerOffset = -6,
-				uuid = "e8bac700-cc66-d8cf-8f2b-5a5220da3e96",
-				version = 2,
-			},
-			inheritedIndex = 7,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
-							uuid = "c3eafd3c-3646-20bf-9257-bc6f5527acbf",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 608.9,
-				name = "30%",
-				timelineIndex = 117,
-				timerOffset = -5,
-				uuid = "ce2cd905-c984-9342-8e1f-c35bd3fd171e",
-				version = 2,
-			},
-			inheritedIndex = 8,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
 							gVar = "ACR_RikuDRK2_Tankbar_TheBlackestNightSelf",
 							uuid = "fd61b5e4-88a2-0645-8c2b-f7f3d748b552",
 							variableTogglesType = 3,
@@ -4704,6 +4729,7 @@ local tbl =
 	},
 	inheritedProfiles = 
 	{
+		"store\\anyone\\savage2\\p6s",
 	},
 	mapID = 1084,
 	version = 2,
