@@ -1521,6 +1521,40 @@ local tbl =
 			},
 		},
 	},
+	[69] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Gorgon Slidecast Force Long",
+				uuid = "9dc8bf11-aff9-4497-bcdb-d0c14e6679f4",
+				version = 2,
+			},
+			inheritedObjectUUID = "8773e6e4-5d51-09ba-bbdb-fe2f5dc822e7",
+			inheritedOverwrites = 
+			{
+				timerOffset = -2.4000000953674,
+			},
+		},
+	},
+	[71] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Gorgon Slidecast Force Medium",
+				uuid = "f00529e5-3ab2-7116-b378-ba04ed1d4ab5",
+				version = 2,
+			},
+			inheritedObjectUUID = "3cf61f1b-98b0-1f8c-b974-150e9c3caf5a",
+			inheritedOverwrites = 
+			{
+				timerOffset = -1.6000000238419,
+			},
+		},
+	},
 	[77] = 
 	{
 		
@@ -4217,7 +4251,7 @@ local tbl =
 				timelineIndex = 169,
 				timerEndOffset = -6,
 				timerOffset = -10,
-				timerStartOffset = -14.5,
+				timerStartOffset = -10,
 				uuid = "6433bcbf-eec1-6d93-8022-9b6b4c602616",
 				version = 2,
 			},
@@ -4567,86 +4601,6 @@ local tbl =
 			inheritedIndex = 10,
 		},
 	},
-	[190] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "11e58d91-0e29-04c4-9fc3-af2f14f708e5",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							category = "Party",
-							comparator = 2,
-							conditionType = 4,
-							inRangeValue = 15,
-							minTargetPercent = true,
-							partyTargetNumber = 100,
-							partyTargetSubType = "Number",
-							uuid = "b2e0bc7f-30ab-599e-9737-a7d6ee8f59ea",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 5424.5,
-				name = "暗黑布道",
-				timeRange = true,
-				timelineIndex = 190,
-				timerEndOffset = -0.5,
-				timerOffset = -10,
-				timerStartOffset = -5,
-				uuid = "d592dda5-ad42-41ba-8c4e-173c72ba3130",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "Variable",
-							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
-							uuid = "11e58d91-0e29-04c4-9fc3-af2f14f708e5",
-							variableTogglesType = 3,
-							version = 2,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 5424.5,
-				name = "暗黑布道",
-				timeRange = true,
-				timelineIndex = 190,
-				timerOffset = -10,
-				uuid = "829adb81-053c-ef59-90d3-6453b50be4c7",
-				version = 2,
-			},
-		},
-	},
 	[193] = 
 	{
 		
@@ -4772,6 +4726,83 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "11e58d91-0e29-04c4-9fc3-af2f14f708e5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+					
+					{
+						data = 
+						{
+							category = "Party",
+							comparator = 2,
+							conditionType = 4,
+							inRangeValue = 15,
+							minTargetPercent = true,
+							partyTargetNumber = 100,
+							partyTargetSubType = "Number",
+							uuid = "b2e0bc7f-30ab-599e-9737-a7d6ee8f59ea",
+							version = 2,
+						},
+					},
+				},
+				mechanicTime = 5453.8,
+				name = "暗黑布道",
+				timeRange = true,
+				timelineIndex = 195,
+				timerEndOffset = -0.5,
+				timerOffset = -10,
+				timerStartOffset = -3,
+				uuid = "20435088-847d-e5e3-a82c-5ce1785ec56a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_DarkMissionary",
+							uuid = "11e58d91-0e29-04c4-9fc3-af2f14f708e5",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 5453.8,
+				name = "暗黑布道",
+				timeRange = true,
+				timelineIndex = 195,
+				timerOffset = -10,
+				uuid = "53af4273-10a6-a1e4-a7b6-48ba02ac7342",
+				version = 2,
+			},
 		},
 	},
 	[198] = 
