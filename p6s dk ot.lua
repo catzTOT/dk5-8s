@@ -870,6 +870,35 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "Variable",
+							gVar = "ACR_RikuDRK2_Tankbar_ShadowWall",
+							uuid = "00dd1411-c606-a9da-8918-4552df5e4e3c",
+							variableTogglesType = 3,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 128.5,
+				name = "30",
+				timelineIndex = 27,
+				timerOffset = -14,
+				uuid = "a17e9ecf-6fad-3ad0-b432-308f256791a4",
+				version = 2,
+			},
+		},
 	},
 	[28] = 
 	{
@@ -1720,8 +1749,11 @@ local tbl =
 				},
 				mechanicTime = 239.3,
 				name = "30%",
+				timeRange = true,
 				timelineIndex = 46,
+				timerEndOffset = -0.5,
 				timerOffset = -9,
+				timerStartOffset = -14,
 				uuid = "19a307e4-fcd9-54b6-9aed-5077bfb75928",
 				version = 2,
 			},
